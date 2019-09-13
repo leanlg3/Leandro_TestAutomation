@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name= "My test suite">
+	<parameter name="browser" value="chrome"/>
+	<test name="WebAutomationTesting">
+		<classes>
+			<class name="com.automation.tests.Exercise1"></class>
+			<class name="com.automation.tests.Exercise2"></class>
+			<class name="com.automation.tests.Exercise3"></class>
+			<class name="com.automation.tests.Exercise4"></class>
+			<class name="com.automation.tests.Exercise5"></class>
+		</classes>
+	</test>
+	
+</suite>

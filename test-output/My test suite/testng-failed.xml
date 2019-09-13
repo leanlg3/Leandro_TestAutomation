@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My test suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="WebAutomationTesting(failed)">
+    <classes>
+      <class name="com.automation.tests.Exercise1">
+        <methods>
+          <include name="Excercise2"/>
+          <include name="afterSuite"/>
+          <include name="Excercise5"/>
+          <include name="beforeSuite"/>
+          <include name="Excercise3"/>
+          <include name="Excercise4"/>
+          <include name="Excercise1"/>
+        </methods>
+      </class> <!-- com.automation.tests.Exercise1 -->
+    </classes>
+  </test> <!-- WebAutomationTesting(failed) -->
+</suite> <!-- Failed suite [My test suite] -->

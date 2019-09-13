@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39" started-at="2019-08-19T14:28:19Z" finished-at="2019-08-19T14:28:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39" started-at="2019-08-19T14:28:19Z" finished-at="2019-08-19T14:28:19Z">
+      <class name="com.RestAssured.practice.Chapter1">
+        <test-method status="PASS" signature="collectionMethods()[pri:0, instance:com.RestAssured.practice.Chapter1@7cd62f43]" name="collectionMethods" duration-ms="11" started-at="2019-08-19T14:28:19Z" finished-at="2019-08-19T14:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectionMethods -->
+        <test-method status="PASS" signature="collectionsAndSort()[pri:0, instance:com.RestAssured.practice.Chapter1@7cd62f43]" name="collectionsAndSort" duration-ms="3" started-at="2019-08-19T14:28:19Z" finished-at="2019-08-19T14:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectionsAndSort -->
+      </class> <!-- com.RestAssured.practice.Chapter1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
